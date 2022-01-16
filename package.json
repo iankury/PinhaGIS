@@ -1,0 +1,15 @@
+{
+  "name": "pinhagis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pinhata",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "g-i-s": "^2.1.6"
+  }
+}

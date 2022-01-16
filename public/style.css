@@ -1,0 +1,63 @@
+@font-face {
+  font-family: rounded_medium;
+  src: url('./RoundedMplus1c-Medium.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+}
+
+#text {
+  background-color: #141414;
+  color: #3bffdb;
+  font-size: 23vh;
+  font-family: rounded_medium;
+  position: absolute;
+  width: 90vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  caret-color: #141414;
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+#color_picker {
+  position: absolute;
+  left: 40vw;
+  top: 30vh;
+  visibility: hidden;
+}
+
+.grid {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: #141414;
+  z-index: 99;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+img {
+  max-height: 90vh;
+  max-width: 48vw;
+  border-radius: 7px;
+  margin: 5px;
+}
+
+:root {
+  color-scheme: dark;
+}
